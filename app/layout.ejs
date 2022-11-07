@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%- title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/d’Perfume.png" alt="logo">
+        </a>
+        <div class="cart ms-auto me-5">
+          <a class=" fs-5 d-lg-none" href="#"><i class="fa-solid fa-cart-shopping"></i><span>3</span></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active fs-5 px-4" aria-current="page" href="#"><i class="fa-solid fa-shop d-none d-lg-inline"></i>Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 px-4" href="#"><i class="fa-solid fa-user d-none d-lg-inline"></i>log in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 px-4" href="#"><i class="fa-solid fa-heart d-none d-lg-inline"></i>Wishlist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 ps-4 d-none d-lg-block" href="#"><i class="fa-solid fa-cart-shopping"></i><span>Cart(3)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 d-block d-lg-none" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 d-block d-lg-none" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <%- contents %>
+
+    <footer class="footer bg-primary text-white">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex">
+              <img src="./assets/images/d’Perfume.png" alt="logo">
+            </div>
+            <p class="me-auto ms-5 fs-7">© 2020. All Rights Reserved.</p>
+          </div>
+          <ul class="footer-menu d-none d-lg-flex">
+            <li><a href="#" class=" px-9 py-7 ">Product</a></li>
+            <li><a href="#" class=" px-9 py-7 ">Blog</a></li>
+            <li><a href="#" class=" ps-9 py-7 ">Contact</a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
