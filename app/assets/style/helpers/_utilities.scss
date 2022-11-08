@@ -32,3 +32,17 @@
     color:#AC8A46;
     font-size: 16px;
 }
+
+.btn-subscribe{
+    background-color: $primary;
+    color:white;
+    border-radius: 0 4px 4px 0;
+    height: 60px;
+    width: 131px;
+}
+.email-text{
+    border: 2px solid $primary;
+    width: 219px;
+    height: 60px;
+    padding-left: 16px;
+}
