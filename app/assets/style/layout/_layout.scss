@@ -63,7 +63,11 @@
     }
  }
 
-
+.allRights{
+    @include media-breakpoint-up(lg){
+        margin-right: auto;
+    }
+}
 .footer-menu{
     a{
         display: block;
