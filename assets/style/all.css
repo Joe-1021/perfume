@@ -13641,6 +13641,12 @@ img {
   text-align: center;
 }
 
+@media (min-width: 992px) {
+  .allRights {
+    margin-right: auto;
+  }
+}
+
 .footer-menu a {
   display: block;
   color: white;
